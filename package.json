@@ -6,7 +6,7 @@
     "start": "craco start",
     "build": "craco build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b for-godaddy-deploy -d build",
     "test": "craco test",
     "checkTs": "tsc --noEmit",
     "lint": "npm run lint:ts && npm run lint:style",
