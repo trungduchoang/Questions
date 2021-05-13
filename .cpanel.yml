@@ -1,4 +1,0 @@
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/nbnwetl3wxcr/public_html/
-    - /bin/cp -R build $DEPLOYPATH
